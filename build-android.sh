@@ -17,6 +17,6 @@ make install
 
 cd ..
 
-./configure --host=arm-linux-androideabi --prefix=/home/jordan/android-toolchain/sysroot/usr/ --enable-cpumining --enable-scrypt --disable-opencl --disable-adl --without-curses --enable-static --without-libudev
+./configure --host=arm-linux-androideabi --prefix=/home/jordan/android-toolchain/sysroot/usr/ --enable-cpumining --enable-scrypt --enable-ethash --enable-cryptonight --enable-yescrypt --enable-opencl --disable-adl --without-curses --enable-static --without-libudev
 make 
 make install
