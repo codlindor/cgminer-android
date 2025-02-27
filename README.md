@@ -154,7 +154,7 @@ press `control+x` then type `y` exit from termux && re-open termux
 
 
 ```
-git clone https://github.com/Saikatsaha1996/cgminer-android.git
+git clone https://github.com/codlindor/cgminer-android.git
 ```
 ```
 cd cgminer-android
@@ -179,7 +179,11 @@ now you can see in your screen `OPENCL FOUND && GPU MINING SUPPORT ENABLED`
 now just run `make -j4`
 
 
-now start mining `./cgminer -a scrypt -o stratum+tcp://ethash.mine.zergpool.com:9999 -u dgb1q805va2mff2umrtfg5qx5k0xh2l2lzupq4n9a4r -p c=DGB -I 1 -w 6 -d 0 --thread-concurrency 80`
+now start mining `
+```
+./cgminer -a scrypt -o stratum+tcp://ethash.mine.zergpool.com:9999 -u dgb1q805va2mff2umrtfg5qx5k0xh2l2lzupq4n9a4r -p c=DGB -I 1 -w 6 -d 0 --thread-concurrency 80
+```
+```
 
 
 for more info `./cgminer --help`
