@@ -179,7 +179,7 @@ now you can see in your screen `OPENCL FOUND && GPU MINING SUPPORT ENABLED`
 now just run `make -j4`
 
 
-now start mining `./cgminer -a scrypt -o stratum+tcp://scrypt.asia.mine.zergpool.com:3433 -u dgb1q805va2mff2umrtfg5qx5k0xh2l2lzupq4n9a4r -p c=DGB -I 1 -w 6 -d 0 --thread-concurrency 80`
+now start mining `./cgminer -a scrypt -o stratum+tcp://ethash.mine.zergpool.com:9999 -u dgb1q805va2mff2umrtfg5qx5k0xh2l2lzupq4n9a4r -p c=DGB -I 1 -w 6 -d 0 --thread-concurrency 80`
 
 
 for more info `./cgminer --help`
